@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block head-title %} {{ block.super}} - {{page_title}}  {% endblock head-title %} 
+
+
+{% block content %}
+Custom to home alone
+<p>page visits:{{page_visit_count}} </p>
+<p>Total Visits: {{total_visits}}</p>
+{% endblock content %}
