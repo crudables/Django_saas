@@ -2,4 +2,3 @@ venv/
 *.py[cod]
 __pycache__/
 *$py.class
-.env
