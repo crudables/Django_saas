@@ -3,3 +3,7 @@ venv/
 __pycache__/
 *$py.class
 .env
+# ignore all static vendor files
+src\staticfiles\vendors
+# ignore static file roots: local-cdn
+local-cdn/

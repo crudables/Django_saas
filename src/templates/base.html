@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head><title>
+        
         {% block head-title %} SaaS {% endblock head-title %} 
 
-    </title> </head>
+    </title>
+    {% include 'base/css.html' %}
+</head>
     <body>
+        {% include 'nav/navbar.html' %}
         <H1>Greetings from here</H1>
-
+    <div class="">
         {% block content %}
 
         {% endblock content %}
+    </div>
+       {% include 'base/js.html' %}
     </body>
 </html> 
